@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfKinopoiskLinkSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfKinopoiskLinkSQL"
+        mc:Ignorable="d"
+        Title="Kinopoisk"
+        Height="600"
+        Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <local:Actor x:Key="Actor"/>
+        <local:Film x:Key="Film"/>
+        <local:actorfilm x:Key="actorfilm"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="Gray">
+            <TextBlock Text="Menu"
+                       TextAlignment="Center" 
+                       FontSize="20"/>
+
+            <TextBlock Text="Actors"  TextAlignment="Center" FontSize="17" FontFamily="Cinzel"/>
+            <Button Content="Create" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Update" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Delete" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Show" FontFamily="Cinzel" FontWeight="Bold" FontSize="14" Click="Button_Click"/>
+
+            <TextBlock Text="Films" TextAlignment="Center" FontSize="16" FontFamily="Cinzel"/>
+            <Button Content="Create" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Update" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Delete" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button Content="Show" FontFamily="Cinzel" FontWeight="Bold" FontSize="14"/>
+            <Button>
+                <TextBlock Text="Show actors and films where they are filmed"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       FontFamily="Cinzel" FontSize="14" FontWeight="Bold"/>
+            </Button>
+
+        </StackPanel>
+        <DataGrid Grid.Column="1"
+                  
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center"
+                  Height="570" Width="590" />
+
+    </Grid>
+</Window>

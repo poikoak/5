@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="kinopoisk" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=kinopoisk;Integrated Security=True" SettingsObjectName="WpfKinopoiskLinkSQL.Properties.Settings" SettingsPropertyName="kinopoiskConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.actorfilm" Member="actorfilms">
+    <Type Name="actorfilm">
+      <Column Name="a_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="f_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Film_actorfilm" Member="Film" ThisKey="f_id" OtherKey="f_id" Type="Film" IsForeignKey="true" />
+      <Association Name="Actor_actorfilm" Member="Actor" ThisKey="a_id" OtherKey="a_id" Type="Actor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Actors" Member="Actors">
+    <Type Name="Actor">
+      <Column Name="a_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="lName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Birthdate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Actor_actorfilm" Member="actorfilms" ThisKey="a_id" OtherKey="a_id" Type="actorfilm" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Films" Member="Films">
+    <Type Name="Film">
+      <Column Name="f_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Release" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Film_actorfilm" Member="actorfilms" ThisKey="f_id" OtherKey="f_id" Type="actorfilm" />
+    </Type>
+  </Table>
+</Database>

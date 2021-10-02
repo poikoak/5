@@ -1,0 +1,17 @@
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\bin\Debug\WpfKinopoiskLinkSQL.exe.config
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\bin\Debug\WpfKinopoiskLinkSQL.exe
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\bin\Debug\WpfKinopoiskLinkSQL.pdb
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.csproj.AssemblyReference.cache
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\MainWindow.g.cs
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\App.g.cs
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL_MarkupCompile.cache
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL_MarkupCompile.lref
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\MainWindow.baml
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.g.resources
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.Properties.Resources.resources
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.csproj.GenerateResource.cache
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.csproj.CoreCompileInputs.cache
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.exe
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\WpfKinopoiskLinkSQL.pdb
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\Window1.g.cs
+C:\Users\pofik\Desktop\WpfKinopoiskLinkSQL\WpfKinopoiskLinkSQL\obj\Debug\Window1.baml
