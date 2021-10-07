@@ -1,0 +1,10 @@
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\bin\Debug\WindowsFormsLinktoSQL2.exe.config
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\bin\Debug\WindowsFormsLinktoSQL2.exe
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\bin\Debug\WindowsFormsLinktoSQL2.pdb
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.csproj.AssemblyReference.cache
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.Properties.Resources.resources
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.csproj.GenerateResource.cache
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.csproj.CoreCompileInputs.cache
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.exe
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.pdb
+C:\Users\pofik\Desktop\WindowsFormsLinktoSQL2\WindowsFormsLinktoSQL2\obj\Debug\WindowsFormsLinktoSQL2.Form1.resources
